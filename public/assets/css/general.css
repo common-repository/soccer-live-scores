@@ -1,0 +1,259 @@
+/* RESET */
+
+.daextsolisc-container,
+.daextsolisc-container *{
+	
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+	
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    text-shadow: none !important;
+    
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+}
+
+.daextsolisc-container{
+	width: 100% !important;
+	overflow: hidden !important;
+}
+
+/* HEAD ------------------------------------------------------------------------ */
+
+.daextsolisc-head{
+	width: 100% !important;
+	height: 68px !important;
+	display: flex !important;
+	margin-bottom: 24px !important;
+}
+
+.daextsolisc-head-left{
+	flex-basis: calc(50% - 40px) !important;
+	height: 68px !important;
+	display: flex !important;
+}
+
+.daextsolisc-head-center{
+	flex-basis: 80px !important;
+	height: 68px !important;
+}
+
+.daextsolisc-no-logo .daextsolisc-team-1-logo{
+	display: none !important;
+}
+
+.daextsolisc-no-logo .daextsolisc-team-1-name{
+	width: 100% !important;
+}
+
+.daextsolisc-team-1-logo{
+	width: 48px !important;
+	height: 48px !important;
+	margin: 10px !important;
+}
+
+.daextsolisc-team-1-logo > img{
+	width: 48px !important;
+	height: 48px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important; -webkit-border-radius: 0 !important;
+}
+
+.daextsolisc-team-1-name{
+	height: 68px !important;
+	line-height: 68px !important;
+	text-align: left !important;
+	width: calc(100% - 120px) !important;
+	overflow: hidden !important;
+}
+
+.daextsolisc-head-right{
+	flex-basis: calc(50% - 40px) !important;
+	height: 68px !important;
+	display: flex !important;
+	flex-direction: row-reverse !important;
+}
+
+.daextsolisc-no-logo .daextsolisc-team-2-logo{
+	display: none !important;
+}
+
+.daextsolisc-no-logo .daextsolisc-team-2-name{
+	width: 100% !important;
+}
+
+.daextsolisc-team-2-logo{
+	width: 48px !important;
+	height: 48px !important;
+	margin: 10px !important;
+}
+
+.daextsolisc-team-2-logo > img{
+	width: 48px !important;
+	height: 48px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+}
+
+.daextsolisc-team-2-name{
+	height: 68px !important;
+	line-height: 68px !important;
+	text-align: right !important;
+	width: calc(100% - 120px) !important;
+	overflow: hidden !important;
+}
+
+.daextsolisc-score{
+	font-size: 24px !important;
+	font-weight: 500 !important;
+	line-height: 68px !important;
+	text-align: center !important;
+}
+
+.daextsolisc-team-1-score,
+.daextsolisc-team-2-score,
+.daextsolisc-team-1-first-leg-score,
+.daextsolisc-team-2-first-leg-score{
+	display: inline !important;
+}
+
+.daextsolisc-additional-score{
+	text-align: center !important;
+}
+
+.daextsolisc-score{
+	height: 68px !important;
+	line-height: 68px !important;
+	margin: 0 !important;
+}
+
+.daextsolisc-additional-score{
+	display: none !important;
+}
+
+.daextsolisc-head-center-with-additional{
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.daextsolisc-head-center-with-additional .daextsolisc-score{
+	height: 38px !important;
+	line-height: 24px !important;
+	margin-top: 10px !important;
+	margin-bottom: 0 !important;
+	overflow: hidden !important;
+}
+
+.daextsolisc-head-center-with-additional .daextsolisc-additional-score{
+	display: block !important;
+	height: 30px !important;
+	line-height: 20px !important;
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	font-size: 13px !important;
+	overflow: hidden !important;
+}
+
+/* BODY ------------------------------------------------------------------------ */
+
+.daextsolisc-body{
+	width: 100% !important;
+}
+
+.daextsolisc-row{
+	width: 100% !important;
+	min-height: 22px !important;
+	display: flex !important;
+	border-width: 1px 0 0 0 !important;
+	border-style: solid !important;
+}
+
+.daextsolisc-row:last-of-type{
+	border-width: 1px 0 1px 0 !important;
+}
+
+.daextsolisc-row-left{
+	min-height: 20px !important;
+	min-height: 20px !important;
+}
+
+.daextsolisc-minute{
+	flex-basis: 31px !important;
+	min-height: 22px !important;
+	text-align: center !important;
+	color: #808080 !important;
+	font-size: 12px !important;
+	line-height: 22px !important;
+}
+
+.daextsolisc-row-left .daextsolisc-minute{
+	margin-right: 3px !important;
+}
+
+.daextsolisc-row-right .daextsolisc-minute{
+	margin-left: 3px !important;
+}
+
+.daextsolisc-event-type{
+	flex-basis: 22px !important;
+	min-height: 22px !important;
+	text-align: center !important;
+}
+
+.daextsolisc-row-left .daextsolisc-event-description{
+	text-align: left !important;
+}
+
+.daextsolisc-row-right .daextsolisc-event-description{
+	text-align: right !important;
+}
+
+.daextsolisc-event-description{
+	flex-basis: calc(100% - 56px) !important;
+	min-height: 20px !important;
+	font-size: 12px !important;
+	line-height: 22px !important;
+}
+
+.daextsolisc-row-right{
+	min-height: 20px !important;
+	min-height: 20px !important;
+	flex-direction: row-reverse !important;
+}
+
+/* EVENT ICONS */
+
+.daextsolisc-event-icon{
+	width: 22px !important;
+	height: 22px !important;
+}
+
+.daextsolisc-event-icon img{
+	display: block !important;
+	width: 16px !important;
+	height: 16px !important;
+	margin: 3px !important;
+}
+
+/* TYPOGRAPHY */
+
+.daextsolisc-live-message{
+	line-height: 20px !important;
+}
+
+.daextsolisc-team-1-minute,
+.daextsolisc-team-2-minute,
+.daextsolisc-team-1-event-description,
+.daextsolisc-team-2-event-description{
+	line-height: 20px !important;
+}
